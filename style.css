@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.topbar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topbar a{
+    float: left;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.topbar a:hover{
+    background-color: rgb(173, 173, 173);
+    color: black;
+}
+
+.topbar a.active{
+    background-color: rgb(42, 155, 42);
+    color: white;
+}
+
+.photo{
+    text-align: center;
+    float: right;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.photo figure{
+    padding: 5px;
+}
+
+figcaption{
+    margin: 10px 0 0 0;
+    font-family: Arial;
+    font-weight: bold;
+}

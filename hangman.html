@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
 
+    <script type="text/javascript" src="hangman.js"></script>
 </head>
 <body>
 <div class="topbar">
@@ -34,8 +35,8 @@
 </div>
 
 <div class="buttons">
-    <button id="btn-submit" style="background-color: orange; color:white;">Submit</button>
-    <button id="btn-reset" style="background-color: rgb(15,19,20); color: white; display: none;">Reset</button>
+    <button id="btn-submit" style="background-color: orange; color:white;" onclick="submitFunction()">Submit</button>
+    <button id="btn-reset" style="background-color: rgb(15,19,20); color: white; display: none;" onclick="resetFunction()">Reset</button>
 </div>
 
 </body>

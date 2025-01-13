@@ -63,7 +63,7 @@ function submitFunction(){
     document.getElementById("points").innerHTML = currentPoints
     updateLives()
 
-    setTimeout(updateGameState, 10)
+    setTimeout(updateGameState, 50)
 }
 
 function updateLives(){
@@ -104,4 +104,5 @@ function resetFunction(){
 
     document.getElementById("feedback").innerHTML = ""
     document.getElementById("guess").value = ""
+    document.getElementById("btn-reset").style.display = "none"
 }
